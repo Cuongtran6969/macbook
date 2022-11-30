@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook</title>
+    <link rel="shortcut icon" href="./img/logo_macbook.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./app.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        <div class="bg_img">
+            <img src="./img/macBg.jpg" alt="">
+            <div class="bg_color"></div>
+        </div>
+        <nav>
+            <div class="nav_left">
+                <i class='bx bxl-apple apple'></i>
+                <h4>Finder</h4>
+                <ul class="links">
+                    <li><a href="">File</a></li>
+                    <li><a href="">Edit</a></li>
+                    <li><a href="">View</a></li>
+                    <li><a href="">Go</a></li>
+                    <li><a href="">Window</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+            <div class="nav_middle">
+                
+            </div>
+            <div class="nav_right">
+                <div class="option">
+                    <i class='bx bx-battery' ></i>
+                    <i class='bx bx-wifi' ></i>
+                    <i class='bx bxs-volume-full' ></i>
+                    <input type="checkbox" id="switch" class="switch-input" />
+                    <label for="switch" class="switch"></label>
+                </div>
+                <div class="box_control">
+                    <div class="control_item">
+                        <div class="control_connect">
+                            <div class="option_icon">
+                                <i class='bx bx-wifi'></i>
+                            </div>
+                            <div class="option_state">
+                                <h5 class="option_name">Wi-Fi</h5>
+                                <p class="state">Home</p>
+                            </div>
+                        </div>
+                        <div class="control_connect">
+                            <div class="option_icon">
+                                <i class='bx bx-bluetooth'></i>
+                            </div>
+                            <div class="option_state">
+                                <h5 class="option_name">Bluetooth</h5>
+                                <p class="state">On</p>
+                            </div>
+                        </div>
+                        <div class="control_connect">
+                            <div class="option_icon">
+                                <i class='bx bx-station'></i>
+                            </div>
+                            <div class="option_state">
+                                <h5 class="option_name">AirDrop</h5>
+                                <p class="state">Contacts Only</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control_item">
+                        <div class="control_focus">
+                            <div class="option_icon" id="moon_icon">
+                                <i class='bx bxs-moon'></i>
+                            </div>
+                            <h5 class="focus_content">Do Not Disturb</h5>
+                        </div>
+                    </div>
+                    <div class="control_item">
+                        <div class="control_keyboard">
+                            <i class='bx bxs-grid'></i>
+                            <h5>Keyboard Brightness</h5>
+                        </div>
+                    </div>
+                    <div class="control_item">
+                        <div class="control_screen">
+                            <i class='bx bx-copy'></i>
+                            <h5>scressn Mirroring</h5>
+                        </div>
+                    </div>
+                    <div class="control_item">
+                        <h4 class="control_item-title">Display</h4>
+                        <input type="range" id="control_light">
+                    </div>
+                    <div class="control_item">
+                        <h4 class="control_item-title">Sound</h4>
+                        <input type="range" id="control_light">
+                    </div>
+                    <div class="control_item control_music">
+                        <div class="music_img">
+                            <img src="./img/music.jpg" alt="">
+                        </div>
+                        <div class="music_content">
+                           <div class="music_name">
+                            <h5 class="music_title">Waiting for you</h5>
+                            <p class="music_author">Mono</p>
+                           </div>
+                            <div class="music_btn">
+                                <i class='bx bx-play'></i>
+                                <i class='bx bx-fast-forward'></i>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+                <p class="date">Mon Jun 22</p>
+                <p class="clock">9:51</p>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="navigation">
+              <div class="apps">
+                <div class="app">
+                    <img src="./img/faceId.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/siri.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/space.png" alt="">
+                </div>
+                <div class="app app_safari">
+                    <img src="./img/safari.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/notes.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/map.png" alt="">
+                </div>
+                <div class="app app_image">
+                    <img src="./img/images.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/itunes.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/date.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/google.png" alt="">
+                </div>
+                <div class="app app_phone">
+                    <img src="./img/phone.png" alt="">
+                </div>
+                <div class="app app_caculation">
+                    <img src="./img/cacular.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/appStore.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/setting.png" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="app">
+                    <img src="./img/document.png" alt="">
+                </div>
+                <div class="app">
+                    <img src="./img/trash.png" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="calculator">
+            <div class="mac_header">
+              <button class="close close-btn">
+                <i class='bx bx-x '></i>
+              </button>
+              <button class="zoom_out zoom_out-btn">
+                <i class='bx bx-minus '></i>
+              </button>
+              <button class="zoom_in zoom_in-btn">
+                <i class='bx bx-plus '></i>
+              </button>
+            </div>
+            <div class="cal_header">
+                <h3 class="result">0</h3>
+            </div>
+            <div class="cal_operation">
+               <div class="list_left">
+                  <div class="item_btn">C</div>
+                  <div class="item_btn">
+                    <i class="fa-solid fa-plus-minus"></i>
+                  </div>
+                  <div class="item_btn">
+                    <i class="fa-solid fa-percent"></i>
+                  </div>
+                  <div class="item_btn num_btn">7</div>
+                  <div class="item_btn num_btn">8</div>
+                  <div class="item_btn num_btn">9</div>
+                  <div class="item_btn num_btn">4</div>
+                  <div class="item_btn num_btn">5</div>
+                  <div class="item_btn num_btn">6</div>
+                  <div class="item_btn num_btn">1</div>
+                  <div class="item_btn num_btn">2</div>
+                  <div class="item_btn num_btn">3</div>
+                  <div class="item_btn num_btn zero_num h7">0</div>
+                  <div class="item_btn num_btn">,</div>
+               </div>
+                <!-- d -->
+               <div class="list_right">
+                    <div class="item_btn operation divide_sign">
+                        <i class="fa-solid fa-divide"></i>
+                    </div>
+                    <div class="item_btn operation product_sign">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="item_btn operation minus_sign">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="item_btn operation add_sign">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="item_btn operation euqal_sign">
+                        <i class="fa-solid fa-equals"></i>
+                    </div>
+               </div>
+
+                <!-- d -->
+               
+            </div>
+        </div>
+        <div class="safari">
+            <div class="safari_bg">
+                <img src="./img/safariBg.jpg" alt="">
+            </div>
+            <div class="safari_header">
+                <div class="safari_left">
+                    <div class="mac_header">
+                        <button class="safari_close close-btn">
+                            <i class='bx bx-x'></i>
+                        </button>
+                        <button class="zoom_out zoom_out-btn">
+                            <i class='bx bx-minus'></i>
+                        </button>
+                        <button class="zoom_in zoom_in-btn">
+                            <i class='bx bx-plus'></i>
+                        </button>
+                    </div>
+                    <i class='bx bx-sidebar sideBar_icon'></i>
+                    <i class='bx bx-chevron-left' ></i>
+                    <i class='bx bx-chevron-right' ></i>
+                    <i class='bx bx-check-shield check_icon'></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" placeholder="search or enter website name">
+                    <i class='bx bx-search search_icon' ></i>
+                </div>
+                <div class="safari_right">
+                    <i class='bx bx-cloud-upload'></i>
+                    <i class='bx bx-plus'></i>
+                    <i class='bx bxs-add-to-queue'></i>
+                </div>
+            </div>
+            <div class="safari_content">
+                <h3>Favorites</h3>
+                <ul class="list_web">
+                    <li>
+                        <a href=""><img src="./img/hermanMiler.png"></img></a>
+                        <p>Herman Miler</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/in.png"></img></a>
+                        <p>In</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/instagram.png"></img></a>
+                        <p>instagram</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/line.png"></img></a>
+                        <p>line</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/twiter.png"></img></a>
+                        <p>twitter</p>
+                    </li>
+                </ul>
+                <div class="news">
+                    <h3>Reading List</h3>
+                    <ul class="list_news">
+                        <li class="news_item">
+                            <div class="news_content">
+                              <a href="https://www.newsweek.com/2022/12/09/world-cup-2022-10-current-legendary-players-share-what-it-takes-win-1760760.html" class="news_title">World Cup 2022: 10 Current and Legendary Players Share What It Takes to Win</a>
+                              <p>freudevonfreumen.com</p>
+                            </div>
+                            <div class="news_img">
+                                <img src="./img/news1.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="news_item">
+                            <div class="news_content">
+                              <a href="https://www.newsweek.com/russian-conscripts-have-no-clue-what-do-ukraine-soldiers-wife-1760944" class="news_title">Russian Conscripts Have 'No Clue What to Do' in Ukraine: Soldier's Wife</a>
+                              <p>BY THOMAS KIKA ON 11/20/22 AT 6:31 PM EST</p>
+                            </div>
+                            <div class="news_img">
+                                <img src="./img/news2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="news_item">
+                            <div class="news_content">
+                              <a href="https://www.newsweek.com/christian-petition-against-donald-trump-2024-election-1761032" class="news_title">Trump Ignores Twitter in Latest 'Rigged' Election Accusation</a>
+                              <p>BY SCOTT MCDONALD ON 11/20/22 AT 10:46 PM EST</p>
+                            </div>
+                            <div class="news_img">
+                                <img src="./img/news3.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="news_item">
+                            <div class="news_content">
+                              <a href="https://www.newsweek.com/school-explosion-burns-multiple-students-science-experiment-mishap-1760959" class="news_title">School Explosion Burns Multiple Students After Science Experiment Mishap</a>
+                              <p>BY CHLOE MAYER ON 11/21/22 AT 2:53 AM EST</p>
+                            </div>
+                            <div class="news_img">
+                                <img src="./img/news4.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="phone">
+           <div class="phone_left">
+             <div class="phone_header-left">
+               <div class="header-btn">
+                  <button class="phone_close close-btn">
+                    <i class='bx bx-x'></i>
+                  </button>
+                  <button class="zoom_out zoom_out-btn">
+                    <i class='bx bx-minus'></i>
+                  </button>
+                  <button class="zoom_in zoom_in-btn">
+                    <i class='bx bx-plus'></i>
+                  </button>
+               </div>
+               <div class="edit-btn">
+                 <i class='bx bxs-edit'></i>
+               </div>
+             </div>
+             <div class="search_phone-num">
+                <i class='bx bx-search search_icon-phone'></i>
+                <input type="text" placeholder="Search">
+             </div>
+             <ul class="list_num">
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user1.jpeg" alt="">
+                         <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="active"></p>
+                        <p class="user_name">Marry</p>
+                    </div>
+                   
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user2.jpg" alt="">
+                         <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="user_name">Andrew</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user3.jpg" alt="">
+                         <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="user_name">Keyvin</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user4.jpeg" alt="">
+                         <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="active"></p>
+                        <p class="user_name">Kawdoong</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user5.jpeg" alt="">
+                        <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="user_name">Thomas</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user6.jpg" alt="">
+                        <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="active"></p>
+                        <p class="user_name">Thomas</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user7.jpeg" alt="">
+                        <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="user_name">Thomas</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user8.jpeg" alt="">
+                        <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="active"></p>
+                        <p class="user_name">Thomas</p>
+                    </div>
+                </li>
+                <li class="phone_item"> 
+                    <a href="tel:0383459560">
+                        <img src="./img/user9.jpeg" alt="">
+                        <i class='bx bxs-phone-call phone_call-icon'></i>
+                    </a>
+                    <div class="about_user">
+                        <p class="user_name">Thomas</p>
+                    </div>
+                </li>
+             </ul>
+           </div>
+           <div class="phone_right">
+             <div class="phone_right-header">
+
+             </div>
+             <div class="phone_call">
+                <!-- <p class="number_call">+</p> -->
+                <div class="input_num-box">
+                    <input type="text" class="number_call">
+                    <i class='bx bx-x delete_num'></i>
+                </div>
+                <ul class="phones_btn">
+                    <li class="phone_btn">
+                        <p class="number_btn">1</p> 
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">2</p>  
+                        <p class="text_btn">A B C</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">3</p>  
+                        <p class="text_btn">D E F</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">4</p>  
+                        <p class="text_btn">G H I</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">5</p>  
+                        <p class="text_btn">J K L</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">6</p>  
+                        <p class="text_btn">M N O</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">7</p>  
+                        <p class="text_btn">P Q R S</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">8</p>  
+                        <p class="text_btn">T U V</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">9</p>  
+                        <p class="text_btn">W X Y Z</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">*</p>  </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">0</p>  
+                        <p class="text_btn">+</p>
+                    </li>
+                    <li class="phone_btn">
+                        <p class="number_btn">#</p>  </li>
+                </ul>
+                <div class="call_btn">
+                    <a href="tel:" id="call">
+                        <i class='bx bxs-phone'></i>
+                    </a>
+                </div>
+             </div>
+           </div>
+        </div>
+        <div class="picture">
+          <div class="picture_left">
+            <div class="picture_header-left">
+             <div class="mac_header">
+                 <button class="picture_close close-btn">
+                    <i class='bx bx-x'></i>
+                </button>
+                 <button class="zoom_out zoom_out-btn">
+                    <i class='bx bx-minus'></i>
+                </button>
+                 <button class="zoom_in zoom_in-btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+             </div>
+             <div class="picture_service">
+               <p class="picture_type">Favorites</p>
+               <ul class="list_service">
+                    <li class="favorite_item">
+                      <i class='bx bx-station'></i>
+                      <span class="service_name">AirDrop</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class='bx bx-time-five' ></i>
+                       <span class="service_name">Recents</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class="fa-brands fa-app-store"></i>
+                       <span class="service_name">Applications</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class='bx bx-window'></i>
+                       <span class="service_name">Desktop</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class='bx bx-down-arrow-circle' ></i>
+                       <span class="service_name">Downloads</span>
+                    </li>
+               <!-- </ul> -->
+               <!-- <p class="picture_type">icloud</p> -->
+               <!-- <ul class="list_service"> -->
+                    <li class="favorite_item">
+                       <i class='bx bx-cloud' ></i>
+                       <span class="service_name">icloud Drive</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class='bx bx-file-blank'></i>
+                       <span class="service_name">Documents</span>
+                    </li>
+                    <li class="favorite_item">
+                       <i class='bx bx-window'></i>
+                       <span class="service_name">Desktop</span>
+                    </li>
+               </ul>
+             </div>
+             <p class="picture_type">Locations</p>
+             <p class="picture_type">Tag</p>                    
+            </div>
+          </div>
+          <div class="picture_right">
+            <div class="picture_header-right">
+              <div class="control_step">
+                 <i class='bx bx-chevron-left left_btn'></i>
+                 <i class='bx bx-chevron-right right_btn' ></i>
+              </div>
+              <h3 class="picture_address">Desktop</h3>
+              <div class="search_picture">
+                 <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search">
+              </div>
+            </div>
+            <div class="picture_nav">
+                <span class="service_name">Trash</span>
+                <button class="emty_btn">Empty</button>
+            </div>
+            <div class="list_picture icloud_drive">
+                 <div class="item_img">
+                    <img src="./img/macBookbg1.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                        
+                    </div>  
+                </div>
+                 <div class="item_img">
+                    <img src="./img/macBookbg2.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                        
+                    </div>   
+                </div>
+                 <div class="item_img">
+                    <img src="./img/macBookbg3.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                    </div>   
+                </div>
+                 <div class="item_img">
+                    <img src="./img/macBookbg1.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                    </div> 
+                </div>
+                 <div class="item_img">
+                    <img src="./img/macBookbg2.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                    </div> 
+                </div>
+                 <div class="item_img">
+                    <img src="./img/macBookbg3.jpg" alt="">
+                    <p class="picture_name">macbook_img</p>
+                    <div class="option_picture">
+                    </div>
+                </div>
+                 
+            </div>
+            <div class="airdrop_Picture">
+
+            </div>
+            <div class="recents_picture">
+
+            </div>
+            <div class="applications_picture">
+
+            </div>
+            <div class="downloads_picture">
+
+            </div>
+            <div class="document">
+
+            </div>
+            <div class="desktop">
+
+            </div>
+          </div>
+        </div>
+    </section>
+</body>
+<script src="./app.js"></script>
+</html>
